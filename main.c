@@ -18,7 +18,7 @@
 #include "flow/flow-worker.h"
 #include "utils/conf.h"
 #include "utils/util-device.h"
-#include "dpi/main.h"
+#include "main.h"
 #include "reassemble/stream-tcp.h"
 #include "utils/util-misc.h"
 #include "modules/source-pcap-file.h"

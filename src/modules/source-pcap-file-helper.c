@@ -4,7 +4,7 @@
 #include "utils/util-mem.h"
 #include "modules/tmqh-packetpool.h"
 #include "utils/conf.h"
-#include "dpi/main.h"
+#include "main.h"
 
 extern int max_pending_packets;
 extern PcapFileGlobalVars pcap_g;

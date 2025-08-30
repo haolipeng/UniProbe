@@ -1,7 +1,6 @@
 #include <stdio.h>
 #include "decode-ethernet.h"
 #include "decode.h"
-#include "dpi/dpi_module.h"
 
 int DecodeEthernet(ThreadVars *tv, Packet *p,const uint8_t *pkt, uint32_t len)
 {

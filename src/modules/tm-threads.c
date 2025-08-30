@@ -8,7 +8,7 @@
 #include "utils/conf.h"
 #include "tm-modules.h"
 #include "tmqh-packetpool.h"
-#include "dpi/main.h"
+#include "main.h"
 #include "utils/util-mem.h"
 
 

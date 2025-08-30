@@ -23,7 +23,7 @@
 #include "utils/util-mem.h"
 #include "utils/util-device.h"
 #include "utils/util-ioctl.h"
-#include "dpi/main.h"
+#include "main.h"
 
 #define AFP_IFACE_NAME_LENGTH 48
 

@@ -2,7 +2,7 @@
 #include <sys/stat.h>
 #include "source-pcap-file-directory-helper.h"
 #include "utils/util-mem.h"
-#include "dpi/main.h"
+#include "main.h"
 
 static int PcapDirectoryGetModifiedTime(char const * file, struct timespec * out);
 int CompareTimes(struct timespec *left, struct timespec *right);

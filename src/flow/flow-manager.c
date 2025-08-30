@@ -27,7 +27,7 @@
 #include "modules/tmqh-packetpool.h"
 #include "modules/tm-threads-common.h"
 #include "modules/tm-modules.h"
-#include "dpi/main.h"
+#include "main.h"
 #include "output/output-flow.h"
 #include "utils/util-mem.h"
 

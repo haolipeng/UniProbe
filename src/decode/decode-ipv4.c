@@ -1,6 +1,5 @@
 #include "decode-ipv4.h"
 #include "decode.h"
-#include "dpi/dpi_module.h"
 #include "utils/packet-queue.h"
 #include "utils/util-print.h"
 #include "modules/threadvars.h"

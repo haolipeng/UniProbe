@@ -17,12 +17,7 @@ link_directories("/usr/local/lib")
 
 add_executable(net_threat_detect
         main.c
-        src/packet.c src/packet.h
-        src/ring.c src/ring.h
-        src/pcap.c src/pcap.h
-        src/common.h
         src/base.h
-        src/apis.h
 
         /*common*/
         src/common/address-port.h  src/common/packet-define.h
@@ -60,7 +55,6 @@ add_executable(net_threat_detect
         src/utils/util-misc.h src/utils/util-misc.c
         src/utils/util-byte.h src/utils/util-byte.c
         src/utils/conf.h src/utils/conf.c
-        src/utils/timer_queue.h src/utils/timer_queue.c
         src/utils/util-pool-thread.h src/utils/util-pool-thread.c
         src/utils/util-pool.h src/utils/util-pool.c
         src/utils/util-time.h src/utils/util-time.c
@@ -96,8 +90,7 @@ add_executable(net_threat_detect
         src/detect/detect.h
 
         /*dpi*/
-        src/dpi/dpi_module.h src/dpi/main.h
-        src/dpi/dpi_entry.c src/dpi/dpi_entry.h
+        src/main.h
 
         /*modules*/
         src/modules/tmqh-packetpool.h src/modules/tmqh-packetpool.c
@@ -125,8 +118,6 @@ add_executable(net_threat_detect
 target_link_libraries(net_threat_detect
         pthread
         pcap
-        urcu
         pcre
         yaml
-        urcu-cds
         jansson)
